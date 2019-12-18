@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.blue {
+  border-color: black;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+	color: pink;
+	
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0)), url('https://i.guim.co.uk/img/media/bdf23d7b1bbb200cf72ae0c22f051bf926445b20/1_0_5075_3046/master/5075.jpg?width=300&quality=85&auto=format&fit=max&s=106633bbe255391e5af50fb2d6652ae5');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0)), url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/201702/heart-647_020617031052.jpg');
+}
+
+#goals {
+    background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0)), url('https://i.ytimg.com/vi/tLS72xdY9qM/maxresdefault.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0)), url('https://wallpapercave.com/wp/EsZh6XK.jpg');
+}
+#achievements {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0)), url('https://wallpaperplay.com/walls/full/f/e/6/146990.jpg');
+}
